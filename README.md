@@ -1,6 +1,7 @@
 🛒 ECOMMERCE TEST AUTOMATION
 
-Automated test suite for validating the core functionalities of an e-commerce platform using Selenium WebDriver with Java, Junit, and Maven. This project ensures a reliable and robust shopping experience by automating key user flows such as login, product search, add-to-cart, and checkout.
+Automated test suite for validating the core functionalities of an e-commerce platform using Selenium WebDriver with Java, JUnit, Maven, and GitHub for version control.
+This project ensures a reliable and robust shopping experience by automating key user flows such as login, add-to-cart, and checkout, while maintaining code collaboration, history tracking, and CI readiness through GitHub.
 
  Features
  
@@ -35,20 +36,6 @@ Tests are browser-independent and can be configured for multi-browser runs.
 
 
 
- Technologies Used
-
-Technology	     Role
-
-Java	           Programming Language
-
-Selenium	       Web Automation Framework
-
-JUnit	           Test Management Framework
-
-Maven	           Dependency Management
-
-GitHub	         Version Control 
-
 
 🧪 Detailed Test Case Descriptions
 
@@ -57,10 +44,10 @@ GitHub	         Version Control
     
 Tests the login functionality of the site.
 
-
 validLogin()
 
 ✅ Enters valid credentials (standard_user / secret_sauce) and checks whether the user is redirected to the inventory page by verifying the URL contains "inventory".
+
 
 2. Cart Functionality Tests – (AddToCartTest.java)
    
@@ -73,6 +60,7 @@ addSingleItemToCart()
 ✅ Adds the first product listed to the cart.
 
 ✅ Navigates to the cart and asserts that exactly one item is added (by checking the count of cart items).
+
 
 
 3. Checkout Flow Tests – (CheckoutTest.java)
